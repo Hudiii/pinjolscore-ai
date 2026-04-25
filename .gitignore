@@ -1,0 +1,70 @@
+# ==================================
+# PinjolScore-AI — Root .gitignore
+# ==================================
+
+# ──────────────────────────────────
+# OS & Editor
+# ──────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ──────────────────────────────────
+# Laravel / PHP (api/)
+# ──────────────────────────────────
+api/vendor/
+api/.env
+api/.env.backup
+api/.phpunit.result.cache
+api/storage/app/public/*
+api/storage/framework/cache/*
+api/storage/framework/sessions/*
+api/storage/framework/views/*
+api/storage/logs/*
+!api/storage/logs/.gitkeep
+!api/storage/framework/cache/.gitkeep
+!api/storage/framework/sessions/.gitkeep
+!api/storage/framework/views/.gitkeep
+api/bootstrap/cache/*.php
+api/node_modules/
+api/*.sqlite
+api/database/database.sqlite
+
+# ──────────────────────────────────
+# Next.js / Node (client/)
+# ──────────────────────────────────
+client/.next/
+client/out/
+client/node_modules/
+client/.env
+client/.env.local
+client/.env.*.local
+client/.env.development.local
+client/.env.production.local
+client/.env.test.local
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.pnpm-debug.log*
+
+# ──────────────────────────────────
+# Build Artifacts
+# ──────────────────────────────────
+dist/
+build/
+*.log
+
+# ──────────────────────────────────
+# Misc
+# ──────────────────────────────────
+*.zip
+*.tar.gz
+.gemini/
