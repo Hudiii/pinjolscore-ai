@@ -18,15 +18,15 @@
 **PinjolScore-AI** adalah platform analitik kredit internal yang dirancang untuk membantu lembaga pinjaman online (pinjol) dalam mengevaluasi kelayakan kredit nasabah secara otomatis dan akurat menggunakan pendekatan berbasis data dan kecerdasan buatan.
 
 Dashboard ini menyediakan:
-- 📊 **Visualisasi DTI (Debt-to-Income) Trend** secara real-time
-- 🤖 **Analisis kredit otomatis** dengan scoring model AI
-- 👥 **Manajemen data nasabah** terpusat
-- 🔐 **Autentikasi & otorisasi** berbasis role
-- 📋 **Laporan evaluasi kredit** yang komprehensif
+-  **Visualisasi DTI (Debt-to-Income) Trend** secara real-time
+-  **Analisis kredit otomatis** dengan scoring model AI
+-  **Manajemen data nasabah** terpusat
+-  **Autentikasi & otorisasi** berbasis role
+-  **Laporan evaluasi kredit** yang komprehensif
 
 ---
 
-## 🏗️ Arsitektur Sistem
+##  Arsitektur Sistem
 
 ```
 Projek_pinjol/
@@ -119,7 +119,7 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 ### `api/.env` (Backend)
 ```env
@@ -137,7 +137,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 | Layer | Teknologi |
 |-------|-----------|
@@ -149,7 +149,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## 📁 Struktur API Endpoints
+##  Struktur API Endpoints
 
 | Method | Endpoint | Deskripsi |
 |--------|----------|-----------|
@@ -181,5 +181,5 @@ Proyek ini dilisensikan di bawah **MIT License** — lihat file [LICENSE](./LICE
 ---
 
 <div align="center">
-Made with ❤️ by <strong>Hudiii</strong>
+Made with  by <strong>Hudiii</strong>
 </div>
